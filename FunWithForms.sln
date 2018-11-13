@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithForms", "FunWithForms\FunWithForms.csproj", "{740459A3-D68F-4BEC-B077-A2D818D4EBB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithForms.Tests", "FunWithForms.Tests\FunWithForms.Tests.csproj", "{A1FDBA88-1CC4-4227-81B8-6572DFF3859F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{740459A3-D68F-4BEC-B077-A2D818D4EBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740459A3-D68F-4BEC-B077-A2D818D4EBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740459A3-D68F-4BEC-B077-A2D818D4EBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740459A3-D68F-4BEC-B077-A2D818D4EBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FDBA88-1CC4-4227-81B8-6572DFF3859F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FDBA88-1CC4-4227-81B8-6572DFF3859F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FDBA88-1CC4-4227-81B8-6572DFF3859F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FDBA88-1CC4-4227-81B8-6572DFF3859F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0020786-D1CA-4F04-A5AF-0EF08237482E}
+	EndGlobalSection
+EndGlobal
