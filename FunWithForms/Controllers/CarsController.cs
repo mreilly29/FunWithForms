@@ -51,5 +51,19 @@ namespace FunWithForms.Controllers
             return RedirectToAction("Index");
 
         }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var car = carRepo.GetById(id);
+            return View(car);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Car car)
+        {
+            carRepo.Update(car);
+            return RedirectToAction("Index");
+        }
     }
 }

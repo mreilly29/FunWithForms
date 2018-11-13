@@ -9,5 +9,6 @@ namespace FunWithForms
         IEnumerable<Car> GetAll();
         Car GetById(int id);
         void Delete(int id);
+        void Update(Car car);
     }
 }
